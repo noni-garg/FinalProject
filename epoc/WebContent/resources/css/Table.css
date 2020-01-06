@@ -1,0 +1,19 @@
+.table th{
+	color:black;
+	font-size: 20px;
+	text-align: left;
+}
+.table td{
+	color:navy;
+	font-size: 15px;
+}
+
+a.goback{
+	text-decoration:none;
+	color:black;
+	position:absolute;
+	left:450px;
+	top:300px;
+	font-size: 40px;
+}
+

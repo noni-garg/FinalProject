@@ -1,0 +1,163 @@
+.heading{
+	position:absolute;
+	left:42%;
+	top:220px;
+	font-size: 50px;
+	color:teal;
+}
+.welcome{
+	font-size:70px;
+	color:teal;
+}
+.normal{
+	font-size: 20px;
+	color: black;
+}
+.form_style input[type="text"]{
+	position:absolute;
+	left:45%;
+	top:300px;
+	border: 1px solid black;
+    border-radius:5px;
+	width:200px;
+	height:25px;
+	transition:0.5s;
+}
+.form_style input[type="password"]{
+	position:absolute;
+	left:45%;
+	top:340px;
+	border: 1px solid black;
+    border-radius:5px;
+	width:200px;
+	height:25px;
+}
+.form_style select{
+	position:absolute;
+	left:45%;
+	top:380px;
+	border: 1px solid black;
+    border-radius:5px;
+	width:200px;
+	height:25px;
+}
+.form_style input[type="submit"]{
+	position:absolute;
+	left:45%;
+	top:420px;
+	border: 1px solid black;
+    border-radius:5px;
+	width:200px;
+	height:25px;
+}
+.disp{
+	position:absolute;
+	left:44%;
+	top:450px;
+	font-size: 20px;
+	color:red;
+}
+
+.disp2{
+	position:absolute;
+	left:44%;
+	top:250px;
+	font-size: 22px;
+	color:teal;
+}
+
+.employeeClass{
+	position:absolute;
+	left:44%;
+	top:240px;
+	border: 1px solid black;
+    border-radius:5px;
+	width:200px;
+	height:35px;
+	font-size:20px;
+	color:teal;
+}
+
+/* .containerclass{
+	display: inline;
+} 
+ */
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.left_disp{
+	width:15%;
+	height:300px;
+	border-right: 1px solid black;
+	padding-right:20px;
+	position:relative;
+}
+.left_disp a{
+	text-decoration: none;
+	color:grey;
+	font-size: 18px;
+	font-weight: bold;
+}
+.left_disp ul{
+	list-style: none;
+	display: inline-block;	
+	width:250px;
+}
+.left_disp li:FIRST-CHILD{
+	color:white;
+	background-color: grey;
+	font-size:20px;	
+}
+.left_disp a:BEFORE{
+	content:'';
+	position:absolute;
+	left:60px;
+	width: 0; 
+  	height: 0; 
+  	vertical-align: text-bottom;
+ 	border-top: 7px solid transparent;
+ 	border-right: 7px solid transparent;
+ 	border-bottom: 7px solid transparent;
+ 	border-left: 7px solid #ddd;
+}
+.left_disp li{
+	border-bottom: 2px solid #ddd;
+	padding:5px 25px 5px 30px;
+	
+}
+.left_disp a:HOVER{
+	color:teal;
+}
+
+.right_disp{
+	width:45%;
+	margin-left: 250px;
+}
+
+
+li.blink{
+	text-decoration:underline;
+	color: red;
+}
+
+
+a.cancelbtn{
+	-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration:none;
+    padding:2px;
+    color:white;
+    margin-top:6px;
+    text-align: center;
+    border: none;
+    display: inline-block;
+    width:100%;
+}
+
+small_right{
+	width:10%;
+}
